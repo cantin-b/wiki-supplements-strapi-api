@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_shared_ban_entries",
+  "info": {
+    "displayName": "ban-entry"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

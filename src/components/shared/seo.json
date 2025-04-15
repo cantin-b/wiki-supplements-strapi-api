@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_shared_seos",
+  "info": {
+    "displayName": "Seo Meta",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "meta_title": {
+      "type": "string"
+    },
+    "meta_description": {
+      "type": "text"
+    },
+    "meta_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "canonical_url": {
+      "type": "string"
+    },
+    "noindex": {
+      "type": "boolean"
+    }
+  }
+}

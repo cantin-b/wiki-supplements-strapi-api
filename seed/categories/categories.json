@@ -1,0 +1,552 @@
+[
+  {
+    "name": "Vitamins & Minerals",
+    "slug": "vitamins-minerals",
+    "description": "Essential micronutrients like Vitamin D3, Zinc, and Magnesium that support general health.",
+    "long_description": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Vitamins and minerals are essential nutrients that your body needs in small amounts to function properly. They support immune function, bone health, energy production, and cellular repair. Common examples include Vitamin C, D3, Zinc, Magnesium, and Iron. A deficiency in these can lead to chronic fatigue, weakened immunity, and poor metabolic health."
+          }
+        ]
+      }
+    ],
+    "visible": true,
+    "seo": {
+      "meta_title": "Vitamins & Minerals",
+      "meta_description": "Essential micronutrients like Vitamin D3, Zinc, and Magnesium that support general health.",
+      "canonical_url": "/categories/vitamins-minerals",
+      "noindex": false
+    },
+    "locale": "en",
+    "translations": [
+      {
+        "locale": "fr",
+        "name": "Vitamines et Minéraux",
+        "slug": "vitamins-minerals",
+        "description": "Micronutriments essentiels comme la vitamine D3, le zinc et le magnésium qui soutiennent la santé générale.",
+        "long_description": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Les vitamines et les minéraux sont des nutriments essentiels dont votre corps a besoin en petites quantités pour fonctionner correctement. Ils soutiennent le système immunitaire, la santé osseuse, la production d'énergie et la réparation cellulaire. Des exemples courants incluent la vitamine C, D3, le zinc, le magnésium et le fer."
+              }
+            ]
+          }
+        ],
+        "visible": true,
+        "seo": {
+          "canonical_url": "/categories/vitamins-minerals",
+          "meta_title": "Vitamines et Minéraux",
+          "meta_description": "Micronutriments essentiels comme la vitamine D3, le zinc et le magnésium qui soutiennent la santé générale.",
+          "noindex": false
+        }
+      }
+    ]
+  },
+  {
+    "name": "Adaptogens",
+    "slug": "adaptogens",
+    "description": "Natural substances like Ashwagandha, Rhodiola, and Ginseng that help the body adapt to stress.",
+    "long_description": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Adaptogens are a class of herbs and natural substances known to help the body resist stressors of all kinds—whether physical, chemical, or biological. These substances work to normalize bodily processes and restore balance. They’re widely used to support adrenal health, improve focus, and reduce fatigue. Popular adaptogens include Ashwagandha, Rhodiola Rosea, and Panax Ginseng."
+          }
+        ]
+      }
+    ],
+    "visible": true,
+    "seo": {
+      "meta_title": "Adaptogens",
+      "meta_description": "Natural substances like Ashwagandha, Rhodiola, and Ginseng that help the body adapt to stress.",
+      "canonical_url": "/categories/adaptogens",
+      "noindex": false
+    },
+    "locale": "en",
+    "translations": [
+      {
+        "locale": "fr",
+        "name": "Adaptogènes",
+        "slug": "adaptogens",
+        "description": "Substances naturelles comme l'Ashwagandha, la Rhodiole et le Ginseng qui aident le corps à s'adapter au stress.",
+        "long_description": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Les adaptogènes sont une classe de plantes et de substances naturelles connues pour aider le corps à résister aux divers stress physiques, chimiques ou biologiques. Ils permettent de normaliser les processus corporels et de rétablir l'équilibre. Ils sont utilisés pour soutenir les glandes surrénales, améliorer la concentration et réduire la fatigue."
+              }
+            ]
+          }
+        ],
+        "visible": true,
+        "seo": {
+          "canonical_url": "/categories/adaptogens",
+          "meta_title": "Adaptogènes",
+          "meta_description": "Substances naturelles comme l'Ashwagandha, la Rhodiole et le Ginseng qui aident le corps à s'adapter au stress.",
+          "noindex": false
+        }
+      }
+    ]
+  },
+  {
+    "name": "Herbal Extracts",
+    "slug": "herbal-extracts",
+    "description": "Plant-based extracts such as Tongkat Ali, Maca, and Tribulus used for various wellness purposes.",
+    "long_description": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Herbal extracts are concentrated plant-based compounds used traditionally for health and healing. They offer a wide range of benefits including hormone support, energy enhancement, libido improvement, and immune support. Examples include Tongkat Ali for testosterone support, Maca for energy and fertility, and Tribulus for athletic performance."
+          }
+        ]
+      }
+    ],
+    "visible": true,
+    "seo": {
+      "meta_title": "Herbal Extracts",
+      "meta_description": "Plant-based extracts such as Tongkat Ali, Maca, and Tribulus used for various wellness purposes.",
+      "canonical_url": "/categories/herbal-extracts",
+      "noindex": false
+    },
+    "locale": "en",
+    "translations": [
+      {
+        "locale": "fr",
+        "name": "Extraits de Plantes",
+        "slug": "herbal-extracts",
+        "description": "Extraits végétaux tels que Tongkat Ali, Maca et Tribulus, utilisés à des fins de bien-être.",
+        "long_description": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Les extraits de plantes sont des composés concentrés issus de végétaux utilisés traditionnellement pour la santé. Ils offrent de nombreux avantages, notamment un soutien hormonal, une amélioration de l'énergie, de la libido et de l'immunité."
+              }
+            ]
+          }
+        ],
+        "visible": true,
+        "seo": {
+          "canonical_url": "/categories/herbal-extracts",
+          "meta_title": "Extraits de Plantes",
+          "meta_description": "Extraits végétaux tels que Tongkat Ali, Maca et Tribulus, utilisés à des fins de bien-être.",
+          "noindex": false
+        }
+      }
+    ]
+  },
+  {
+    "name": "Amino Acids",
+    "slug": "amino-acids",
+    "description": "Protein-building blocks including L-Tyrosine, L-Carnitine, and Glutamine.",
+    "long_description": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Amino acids are the building blocks of protein and play critical roles in muscle repair, neurotransmitter synthesis, and metabolic function. Some are essential and must be obtained from diet or supplements. Common examples include L-Tyrosine (mood & focus), L-Carnitine (fat transport & energy), and Glutamine (gut health & recovery)."
+          }
+        ]
+      }
+    ],
+    "visible": true,
+    "seo": {
+      "meta_title": "Amino Acids",
+      "meta_description": "Protein-building blocks including L-Tyrosine, L-Carnitine, and Glutamine.",
+      "canonical_url": "/categories/amino-acids",
+      "noindex": false
+    },
+    "locale": "en",
+    "translations": [
+      {
+        "locale": "fr",
+        "name": "Acides Aminés",
+        "slug": "amino-acids",
+        "description": "Les blocs de construction des protéines, tels que la L-Tyrosine, la L-Carnitine et la Glutamine.",
+        "long_description": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Les acides aminés sont les éléments de base des protéines et jouent un rôle clé dans la réparation musculaire, la synthèse des neurotransmetteurs et le métabolisme. Certains sont essentiels et doivent être obtenus par l'alimentation ou les compléments."
+              }
+            ]
+          }
+        ],
+        "visible": true,
+        "seo": {
+          "canonical_url": "/categories/amino-acids",
+          "meta_title": "Acides Aminés",
+          "meta_description": "Les blocs de construction des protéines, tels que la L-Tyrosine, la L-Carnitine et la Glutamine.",
+          "noindex": false
+        }
+      }
+    ]
+  },
+  {
+    "name": "Nootropics",
+    "slug": "nootropics",
+    "description": "Cognitive enhancers like Alpha-GPC, Bacopa, and Lion’s Mane to support memory and focus.",
+    "long_description": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Nootropics, also known as smart drugs or cognitive enhancers, are substances that can improve brain function. They help with memory, creativity, motivation, and executive functions. Natural nootropics include Alpha-GPC (choline source), Bacopa Monnieri (memory & learning), and Lion’s Mane (nerve growth)."
+          }
+        ]
+      }
+    ],
+    "visible": true,
+    "seo": {
+      "meta_title": "Nootropics",
+      "meta_description": "Cognitive enhancers like Alpha-GPC, Bacopa, and Lion’s Mane to support memory and focus.",
+      "canonical_url": "/categories/nootropics",
+      "noindex": false
+    },
+    "locale": "en",
+    "translations": [
+      {
+        "locale": "fr",
+        "name": "Nootropiques",
+        "slug": "nootropics",
+        "description": "Améliorateurs cognitifs comme Alpha-GPC, Bacopa, et Lion’s Mane pour la mémoire et la concentration.",
+        "long_description": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Les nootropiques sont des substances qui peuvent améliorer les fonctions cérébrales. Ils aident à la mémoire, à la créativité, à la motivation et aux fonctions exécutives. Les nootropiques naturels incluent Alpha-GPC, Bacopa Monnieri et Lion’s Mane."
+              }
+            ]
+          }
+        ],
+        "visible": true,
+        "seo": {
+          "canonical_url": "/categories/nootropics",
+          "meta_title": "Nootropiques",
+          "meta_description": "Améliorateurs cognitifs comme Alpha-GPC, Bacopa, et Lion’s Mane pour la mémoire et la concentration.",
+          "noindex": false
+        }
+      }
+    ]
+  },
+  {
+    "name": "Performance / Pre-Workout",
+    "slug": "performance-pre-workout",
+    "description": "Supplements like Creatine and Citrulline Malate to enhance physical performance.",
+    "long_description": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Performance and pre-workout supplements are designed to boost energy, endurance, and strength during training. They often include compounds like Creatine (ATP production), Beta-Alanine (delay fatigue), and Citrulline Malate (blood flow and pump). Ideal for athletes or anyone looking to enhance workout output."
+          }
+        ]
+      }
+    ],
+    "visible": true,
+    "seo": {
+      "meta_title": "Performance / Pre-Workout",
+      "meta_description": "Supplements like Creatine and Citrulline Malate to enhance physical performance.",
+      "canonical_url": "/categories/performance-pre-workout",
+      "noindex": false
+    },
+    "locale": "en",
+    "translations": [
+      {
+        "locale": "fr",
+        "name": "Performance / Pré-Entraînement",
+        "slug": "performance-pre-workout",
+        "description": "Suppléments comme la Créatine et la Citrulline Malate pour améliorer la performance physique.",
+        "long_description": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Les suppléments de performance et de pré-entraînement visent à augmenter l'énergie, l'endurance et la force. Ils comprennent souvent de la créatine, de la bêta-alanine et de la citrulline malate."
+              }
+            ]
+          }
+        ],
+        "visible": true,
+        "seo": {
+          "canonical_url": "/categories/performance-pre-workout",
+          "meta_title": "Performance / Pré-Entraînement",
+          "meta_description": "Suppléments comme la Créatine et la Citrulline Malate pour améliorer la performance physique.",
+          "noindex": false
+        }
+      }
+    ]
+  },
+  {
+    "name": "Digestive & Probiotics",
+    "slug": "digestive-probiotics",
+    "description": "Gut health aids such as Lactobacillus strains and Psyllium fiber.",
+    "long_description": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Digestive supplements support gut health, nutrient absorption, and regularity. They include probiotics (good bacteria like Lactobacillus), prebiotics (fiber that feeds probiotics), and digestive enzymes. Psyllium husk, inulin, and fermented foods also contribute to a healthy microbiome."
+          }
+        ]
+      }
+    ],
+    "visible": true,
+    "seo": {
+      "meta_title": "Digestive & Probiotics",
+      "meta_description": "Gut health aids such as Lactobacillus strains and Psyllium fiber.",
+      "canonical_url": "/categories/digestive-probiotics",
+      "noindex": false
+    },
+    "locale": "en",
+    "translations": [
+      {
+        "locale": "fr",
+        "name": "Digestion & Probiotiques",
+        "slug": "digestive-probiotics",
+        "description": "Soutiens de la santé intestinale comme les souches de Lactobacillus et les fibres de psyllium.",
+        "long_description": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Les compléments digestifs soutiennent la santé intestinale, l'absorption des nutriments et la régularité. Ils comprennent des probiotiques, des prébiotiques et des enzymes digestives."
+              }
+            ]
+          }
+        ],
+        "visible": true,
+        "seo": {
+          "canonical_url": "/categories/digestive-probiotics",
+          "meta_title": "Digestion & Probiotiques",
+          "meta_description": "Soutiens de la santé intestinale comme les souches de Lactobacillus et les fibres de psyllium.",
+          "noindex": false
+        }
+      }
+    ]
+  },
+  {
+    "name": "Immune Support",
+    "slug": "immune-support",
+    "description": "Supportive ingredients like Elderberry, Echinacea, and Colostrum for immune defense.",
+    "long_description": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Immune support supplements help strengthen your body’s natural defenses against infections and illness. Key ingredients include Vitamin C, D3, Zinc, Elderberry, and Echinacea. Colostrum and mushroom extracts like Reishi and Cordyceps are also increasingly used to support immune resilience."
+          }
+        ]
+      }
+    ],
+    "visible": true,
+    "seo": {
+      "meta_title": "Immune Support",
+      "meta_description": "Supportive ingredients like Elderberry, Echinacea, and Colostrum for immune defense.",
+      "canonical_url": "/categories/immune-support",
+      "noindex": false
+    },
+    "locale": "en",
+    "translations": [
+      {
+        "locale": "fr",
+        "name": "Soutien Immunitaire",
+        "slug": "immune-support",
+        "description": "Ingrédients comme le Sureau, l'Échinacée et le Colostrum pour renforcer l'immunité.",
+        "long_description": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Les compléments pour le système immunitaire aident à renforcer les défenses naturelles contre les infections. Les ingrédients clés incluent la vitamine C, D3, le zinc, le sureau et les champignons médicinaux comme le Reishi."
+              }
+            ]
+          }
+        ],
+        "visible": true,
+        "seo": {
+          "canonical_url": "/categories/immune-support",
+          "meta_title": "Soutien Immunitaire",
+          "meta_description": "Ingrédients comme le Sureau, l'Échinacée et le Colostrum pour renforcer l'immunité.",
+          "noindex": false
+        }
+      }
+    ]
+  },
+  {
+    "name": "Fat Burners / Metabolism",
+    "slug": "fat-burners-metabolism",
+    "description": "Extracts like Green Tea and Yohimbine that support fat metabolism.",
+    "long_description": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Fat burners and metabolism boosters are supplements designed to increase energy expenditure and fat oxidation. Ingredients like Caffeine, Green Tea Extract, and Yohimbine are often used to stimulate thermogenesis, reduce appetite, and improve energy during weight loss efforts."
+          }
+        ]
+      }
+    ],
+    "visible": true,
+    "seo": {
+      "meta_title": "Fat Burners / Metabolism",
+      "meta_description": "Extracts like Green Tea and Yohimbine that support fat metabolism.",
+      "canonical_url": "/categories/fat-burners-metabolism",
+      "noindex": false
+    },
+    "locale": "en",
+    "translations": [
+      {
+        "locale": "fr",
+        "name": "Brûleurs de Graisses / Métabolisme",
+        "slug": "fat-burners-metabolism",
+        "description": "Extraits comme le Thé Vert et la Yohimbine pour stimuler le métabolisme.",
+        "long_description": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Ces suppléments visent à augmenter la dépense énergétique et l'oxydation des graisses. Ils comprennent des ingrédients comme la caféine, le thé vert et la yohimbine."
+              }
+            ]
+          }
+        ],
+        "visible": true,
+        "seo": {
+          "canonical_url": "/categories/fat-burners-metabolism",
+          "meta_title": "Brûleurs de Graisses / Métabolisme",
+          "meta_description": "Extraits comme le Thé Vert et la Yohimbine pour stimuler le métabolisme.",
+          "noindex": false
+        }
+      }
+    ]
+  },
+  {
+    "name": "Joint & Bone Health",
+    "slug": "joint-bone-health",
+    "description": "Compounds such as Collagen, MSM, and Glucosamine for bone and joint support.",
+    "long_description": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Joint and bone health supplements help maintain flexibility, reduce inflammation, and protect cartilage. Popular compounds include Glucosamine and Chondroitin for joint cushioning, MSM for inflammation, and Collagen for joint and bone integrity. Vitamin D and Calcium are also essential for bone density."
+          }
+        ]
+      }
+    ],
+    "visible": true,
+    "seo": {
+      "meta_title": "Joint & Bone Health",
+      "meta_description": "Compounds such as Collagen, MSM, and Glucosamine for bone and joint support.",
+      "canonical_url": "/categories/joint-bone-health",
+      "noindex": false
+    },
+    "locale": "en",
+    "translations": [
+      {
+        "locale": "fr",
+        "name": "Santé des Articulations & des Os",
+        "slug": "joint-bone-health",
+        "description": "Composés comme le Collagène, le MSM et la Glucosamine pour soutenir les articulations et les os.",
+        "long_description": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Les suppléments pour les articulations et les os aident à maintenir la flexibilité, à réduire l'inflammation et à protéger le cartilage. Ils incluent la glucosamine, la chondroïtine, le MSM et le collagène."
+              }
+            ]
+          }
+        ],
+        "visible": true,
+        "seo": {
+          "canonical_url": "/categories/joint-bone-health",
+          "meta_title": "Santé des Articulations & des Os",
+          "meta_description": "Composés comme le Collagène, le MSM et la Glucosamine pour soutenir les articulations et les os.",
+          "noindex": false
+        }
+      }
+    ]
+  },
+  {
+    "name": "Sleep / Relaxation",
+    "slug": "sleep-relaxation",
+    "description": "Supplements like Melatonin, GABA, and L-Theanine to promote restful sleep.",
+    "long_description": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Sleep and relaxation supplements help improve sleep quality, reduce stress, and calm the nervous system. Key ingredients include Melatonin (sleep regulation), L-Theanine (calm focus), GABA (neuroinhibitor), and Magnesium (muscle relaxation). Ideal for those with insomnia, anxiety, or poor sleep hygiene."
+          }
+        ]
+      }
+    ],
+    "visible": true,
+    "seo": {
+      "meta_title": "Sleep / Relaxation",
+      "meta_description": "Supplements like Melatonin, GABA, and L-Theanine to promote restful sleep.",
+      "canonical_url": "/categories/sleep-relaxation",
+      "noindex": false
+    },
+    "locale": "en",
+    "translations": [
+      {
+        "locale": "fr",
+        "name": "Sommeil / Relaxation",
+        "slug": "sleep-relaxation",
+        "description": "Suppléments comme la Mélatonine, le GABA et la L-Théanine pour favoriser un sommeil réparateur.",
+        "long_description": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Les suppléments de sommeil et de relaxation améliorent la qualité du sommeil, réduisent le stress et calment le système nerveux. Ils incluent la mélatonine, la L-théanine, le GABA et le magnésium."
+              }
+            ]
+          }
+        ],
+        "visible": true,
+        "seo": {
+          "canonical_url": "/categories/sleep-relaxation",
+          "meta_title": "Sommeil / Relaxation",
+          "meta_description": "Suppléments comme la Mélatonine, le GABA et la L-Théanine pour favoriser un sommeil réparateur.",
+          "noindex": false
+        }
+      }
+    ]
+  }
+]

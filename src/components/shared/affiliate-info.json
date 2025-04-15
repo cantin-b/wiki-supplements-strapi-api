@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_affiliate_infos",
+  "info": {
+    "displayName": "Affiliate Info",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "store_name": {
+      "type": "string"
+    },
+    "affiliate_link": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "note": {
+      "type": "text"
+    }
+  }
+}
