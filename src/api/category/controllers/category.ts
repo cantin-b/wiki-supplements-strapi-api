@@ -36,8 +36,10 @@ export default factories.createCoreController('api::category.category', ({ strap
   */
 
   async find(ctx) {
+    const locale = ctx.bodyquery.locale || 'en';
     const doc = await strapi.documents('api::category.category').findMany({ 
-      populate: '*' 
+      // populate: '*',
+      locale
     });
 
     return ctx.send(this.transformResponse(doc));
