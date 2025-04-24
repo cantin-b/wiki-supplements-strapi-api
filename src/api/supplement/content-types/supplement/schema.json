@@ -50,46 +50,6 @@
         }
       }
     },
-    "benefits": {
-      "type": "blocks",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "recommended_dosage": {
-      "type": "blocks",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "cycling_guidelines": {
-      "type": "blocks",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "potential_side_effects": {
-      "type": "blocks",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "natural_sources": {
-      "type": "text",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "scientific_name": {
       "type": "string",
       "pluginOptions": {
@@ -145,18 +105,6 @@
         }
       }
     },
-    "related_by": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::supplement.supplement",
-      "inversedBy": "related_supplements"
-    },
-    "related_supplements": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::supplement.supplement",
-      "mappedBy": "related_by"
-    },
     "tags": {
       "type": "relation",
       "relation": "manyToMany",
@@ -190,6 +138,9 @@
           "localized": true
         }
       }
+    },
+    "introduction": {
+      "type": "blocks"
     }
   }
 }

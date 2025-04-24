@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "tags",
+  "collectionName": "tag_categories",
   "info": {
-    "singularName": "tag",
-    "pluralName": "tags",
-    "displayName": "Tag",
+    "singularName": "tag-category",
+    "pluralName": "tag-categories",
+    "displayName": "Tag Category",
     "description": ""
   },
   "options": {
@@ -28,26 +28,23 @@
       "type": "uid",
       "targetField": "name"
     },
-    "visible": {
-      "type": "boolean",
-      "default": true,
+    "description": {
+      "type": "text",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       }
     },
-    "category": {
+    "tags": {
       "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::tag-category.tag-category",
-      "inversedBy": "tags"
+      "relation": "oneToMany",
+      "target": "api::tag.tag",
+      "mappedBy": "category"
     },
-    "supplements": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::supplement.supplement",
-      "inversedBy": "tags"
+    "visible": {
+      "type": "boolean",
+      "default": true
     }
   }
 }

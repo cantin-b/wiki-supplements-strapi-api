@@ -12,12 +12,15 @@
     "start": "strapi start",
     "strapi": "strapi",
     "upgrade": "npx @strapi/upgrade latest",
-    "upgrade:dry": "npx @strapi/upgrade latest --dry"
+    "upgrade:dry": "npx @strapi/upgrade latest --dry",
+    "backup:db": "bash ./scripts/dump-db.sh",
+    "backup:upload": "ts-node ./scripts/uploadToDrive.ts"
   },
   "dependencies": {
     "@strapi/plugin-cloud": "5.12.4",
     "@strapi/plugin-users-permissions": "5.12.4",
     "@strapi/strapi": "5.12.4",
+    "googleapis": "^148.0.0",
     "node-fetch": "^3.3.2",
     "pg": "8.8.0",
     "react": "^18.0.0",
@@ -29,6 +32,9 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "install": "^0.13.0",
+    "npm": "^11.3.0",
+    "ts-node": "^10.9.2",
     "typescript": "^5"
   },
   "engines": {

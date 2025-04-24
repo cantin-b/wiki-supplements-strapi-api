@@ -121,6 +121,13 @@ coverage
 # Strapi
 ############################
 
+# Private keys
+keys/
+
+# DB Backups/Dumps
+backups/
+
+
 .env
 license.txt
 exports

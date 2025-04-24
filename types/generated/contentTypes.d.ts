@@ -473,12 +473,6 @@ export interface ApiSupplementSupplement extends Struct.CollectionTypeSchema {
           localized: true;
         };
       }>;
-    benefits: Schema.Attribute.Blocks &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
     categories: Schema.Attribute.Relation<
       'manyToMany',
       'api::category.category'
@@ -486,12 +480,6 @@ export interface ApiSupplementSupplement extends Struct.CollectionTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    cycling_guidelines: Schema.Attribute.Blocks &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
     full_description: Schema.Attribute.Blocks &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
@@ -507,6 +495,7 @@ export interface ApiSupplementSupplement extends Struct.CollectionTypeSchema {
           localized: true;
         };
       }>;
+    introduction: Schema.Attribute.Blocks;
     is_banned_in: Schema.Attribute.Component<'shared.ban-entry', true> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
@@ -530,39 +519,13 @@ export interface ApiSupplementSupplement extends Struct.CollectionTypeSchema {
           localized: true;
         };
       }>;
-    natural_sources: Schema.Attribute.Text &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
     origin_country: Schema.Attribute.Text &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
         };
       }>;
-    potential_side_effects: Schema.Attribute.Blocks &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
     publishedAt: Schema.Attribute.DateTime;
-    recommended_dosage: Schema.Attribute.Blocks &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
-    related_by: Schema.Attribute.Relation<
-      'manyToOne',
-      'api::supplement.supplement'
-    >;
-    related_supplements: Schema.Attribute.Relation<
-      'oneToMany',
-      'api::supplement.supplement'
-    >;
     scientific_name: Schema.Attribute.String &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
@@ -589,6 +552,53 @@ export interface ApiSupplementSupplement extends Struct.CollectionTypeSchema {
   };
 }
 
+export interface ApiTagCategoryTagCategory extends Struct.CollectionTypeSchema {
+  collectionName: 'tag_categories';
+  info: {
+    description: '';
+    displayName: 'Tag Category';
+    pluralName: 'tag-categories';
+    singularName: 'tag-category';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  pluginOptions: {
+    i18n: {
+      localized: true;
+    };
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    description: Schema.Attribute.Text &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    locale: Schema.Attribute.String;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::tag-category.tag-category'
+    >;
+    name: Schema.Attribute.String &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    publishedAt: Schema.Attribute.DateTime;
+    slug: Schema.Attribute.UID<'name'>;
+    tags: Schema.Attribute.Relation<'oneToMany', 'api::tag.tag'>;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    visible: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<true>;
+  };
+}
+
 export interface ApiTagTag extends Struct.CollectionTypeSchema {
   collectionName: 'tags';
   info: {
@@ -606,6 +616,10 @@ export interface ApiTagTag extends Struct.CollectionTypeSchema {
     };
   };
   attributes: {
+    category: Schema.Attribute.Relation<
+      'manyToOne',
+      'api::tag-category.tag-category'
+    >;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -1147,6 +1161,7 @@ declare module '@strapi/strapi' {
       'admin::user': AdminUser;
       'api::category.category': ApiCategoryCategory;
       'api::supplement.supplement': ApiSupplementSupplement;
+      'api::tag-category.tag-category': ApiTagCategoryTagCategory;
       'api::tag.tag': ApiTagTag;
       'plugin::content-releases.release': PluginContentReleasesRelease;
       'plugin::content-releases.release-action': PluginContentReleasesReleaseAction;
