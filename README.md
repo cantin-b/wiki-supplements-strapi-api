@@ -1,7 +1,5 @@
 # 🚀 Getting started with Strapi
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
-
 ### `develop`
 
 Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
@@ -32,30 +30,46 @@ npm run build
 yarn build
 ```
 
-## ⚙️ Deployment
-
-Strapi gives you many possible deployment options for your project including [Strapi Cloud](https://cloud.strapi.io). Browse the [deployment section of the documentation](https://docs.strapi.io/dev-docs/deployment) to find the best solution for your use case.
-
-```
-yarn strapi deploy
-```
-
-## 📚 Learn more
-
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://strapi.io/blog) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
-
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
-
-## ✨ Community
-
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
 
 ---
 
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+## 🔐 Automated Database Backup to Google Drive
+
+You can dump your PostgreSQL database and automatically upload the dump to a private Google Drive folder using the following custom scripts.
+
+
+### 🔧 Setup
+
+1. Add your Google service account key (JSON) to the `keys/` directory (already gitignored).
+2. Update your `.env` file with:
+
+```env
+GOOGLE_KEY_PATH=./keys/your-google-key.json
+```
+
+
+### Make the dump script executable once:
+
+```bash
+chmod +x ./scripts/dump-db.sh
+```
+
+
+### Dump your database 
+
+```bash
+npm run backup:db
+```
+This will create a .sql file in the backups/ directory (which is gitignored by default).
+
+
+### Upload the latest dump to Google Drive
+
+```bash
+npm run backup:upload
+```
+
+This will automatically upload the most recent .sql dump to your SupplementoPedia DB DUMPS folder on Google Drive (via the service account).
+
+Make sure the service account has Editor access to the target Drive folder.
+
